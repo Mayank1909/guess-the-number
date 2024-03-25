@@ -10,21 +10,24 @@
 
 <body>
   
-  <script src="script.js"></script>
+  
         <div class="container">
         <h2>Guess The Number Game</h2>
         <p>Try to guess a number between range of 1 to 100</p>
         <p>You onky have 10 attempts to guess the number </p><br>
 
         <form class="form">
-                <input type="text" id="guessfield">
-                <button id="submit" type="submit">Submit</button>
+           <label for="guessField" id="guess">Guess a number</label>
+            <input type="text" id="guessField" class="guessField">
+            <button id="subt" class="guessSubmit">Submit Guess</button>
         </form>
-                <div class="resultpara">
-                        <p>Previous guesses list: <span  class="guesses"></span></p>
-                        <p > guesses left: <span class="lastResult">10</span></p>
-                </div>
+
+        <div class="resultParas">
+            <p >Previous Guesses: <span class="guesses"></span></p>
+            <p >Guesses Remaining: <span class="lastResult">10</span></p>
+            <p class="lowOrHi"></p>
         </div>
+                <script src="script.js"></script>
 </body>
 
 </html>

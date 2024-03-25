@@ -12,7 +12,7 @@ h2{
         text-align: center;
         
 }
-#guessfield{
+#guessField{
         color: #000;
           width: 250px;
           height: 50px;
@@ -24,7 +24,7 @@ h2{
           border: 5px solid #6c6d6d;
           text-align: center;
 }
-#submit{
+#subt{
         background-color: #161616;
           color: #ffffff;
           width: 200px;
@@ -35,7 +35,7 @@ h2{
           margin-top: 50px;
         cursor:pointer;
 }
-#submit:hover{
+#subt:hover{
         background-color:#363032
 }
 .lastResult {
